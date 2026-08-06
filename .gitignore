@@ -1,0 +1,5 @@
+/main
+proto/listentogether.pb.go
+/muzzserver
+server_state.json
+coverage.out

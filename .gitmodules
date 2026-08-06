@@ -1,0 +1,3 @@
+[submodule "muzzproto"]
+	path = muzzproto
+	url = https://github.com/muzikgroup/muzzproto
