@@ -1,6 +1,6 @@
-# Muzzserver
+# MuzzServer
 
-[![codecov](https://codecov.io/gh/MuzikGroup/muzzserver/graph/badge.svg)](https://codecov.io/gh/MuzikGroup/muzzserver)
+[![codecov](https://codecov.io/gh/MuzikGroup/MuzzServer/graph/badge.svg)](https://codecov.io/gh/MuzikGroup/MuzzServer)
 
 A high performance Go WebSocket server for Muzik's "Listen Together" feature.  
 Utilizes protobuf and gzip compression for fast and efficient communication between clients.
@@ -13,7 +13,7 @@ Utilizes protobuf and gzip compression for fast and efficient communication betw
 You need to install go, protobuf, and protoc-gen-go
 
 ```bash
-git clone https://github.com/MuzikGroup/muzzserver
+git clone https://github.com/MuzikGroup/MuzzServer
 cd muzzserver
 
 # Generate protobuf files (required first time)
@@ -50,7 +50,7 @@ The server writes graceful-shutdown recovery state to `server_state.json` with `
 
 ```bash
 # Clone the repository
-git clone https://github.com/MuzikGroup/muzzserver
+git clone https://github.com/MuzikGroup/MuzzServer
 cd muzzserver
 
 # Build locally
